@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My resume</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="CSS/Style.css" />
+  </head>
+
+  <body>
+    <!-- Wrapper -->
+    <div class="wrapper">
+      <!-- Main content -->
+      <div class="main-content">
+        <!-- My info -->
+        <div class="my-info">
+          <h2 class="my-profetion">Front-End розробник, технік-електрик, веломайстер</h2>
+          <h1 class="my-name">Ростислав Фомін</h1>
+          <p class="my-descr">
+            Всім привіт! Мене звати Ростислав. Я веб-розробник-початківець. Цікавлюсь
+            технікою та люблю активний відпочинок. Думаю, що важливо  вміти використовувати те, що ти знаєш по
+            максимуму і ніколи не припиняти вивчати щось нове.
+          </p>
+        </div>
+        <!-- My projects -->
+        <div class="my-projects-container">
+          <h3 class="my-projects-title">Проєкти</h3>
+          <ul class="my-projects-list">
+            <li class="my-projects-item">
+              <a
+                class="my-projects-item-link"
+                href="https://rostyslav-fomin.github.io/goit-markup-hw-08/"
+                target="_blank"
+                >Сайт веб-студії</a
+              >
+              <span class="my-projects-item-tech"
+                >_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _[ HTML5, CSS3, JavaScript ]</span
+              >
+            </li>
+          </ul>
+        </div>
+        <!--My work experience -->
+        <div class="work-experience-container">
+          <h3 class="work-experience-title">Досвід роботи</h3>
+          <!-- Company 1 -->
+          <div class="work-experience-section">
+            <h4 class="work-experience-position">
+              Електрик
+              <span class="work-experience-company"
+                >Нікопольський завод феросплавів</span
+              >
+            </h4>
+            <p class="work-experience-period">
+              Січень 2022 - Січень 2023
+              <span class="work-experience-separator">|</span>Нікополь - Україна
+            </p>
+            <ul class="work-experience-duties-list">
+              <li class="work-experiencee-duties-item">
+                Лабораторія релейного захисту високовольтного електроустаткування
+              </li>
+              <li class="work-experiencee-duties-item">
+                Монтаж і обслуговування систем захиту високовольтного устаткування (пічних трансформаторів, трансформаторних підстанцій 6-10 кВ)
+              </li>
+              <li class="work-experiencee-duties-item">
+                Випробування високовольтного обладнання і кабелів
+              </li>
+            </ul>
+          </div>
+          <!-- Company 2 -->
+          <div class="work-experience-section">
+            <h4 class="work-experience-position">
+              Електромонтер
+              <span class="work-experience-company"
+                >Міські Автомобільні Дороги - 1</span
+              >
+            </h4>
+            <p class="work-experience-period">
+              Червень 2019 - Жовтень 2021
+              <span class="work-experience-separator">|</span> Нікополь - Україна
+            </p>
+            <ul class="work-experience-duties-list">
+              <li class="work-experiencee-duties-item">
+                Монтаж і обслуговування повітряних ліній електропередач
+              </li>
+              <li class="work-experiencee-duties-item">
+                Монтаж і обслуговування систем керування вуличним освітленням 
+              </li>
+              <li class="work-experiencee-duties-item">
+                Ремонт вуличних світильників
+              </li>
+            </ul>
+          </div>
+          <!-- Company 3 -->
+          <div class="work-experience-section">
+            <h4 class="work-experience-position">
+              Веломеханік
+              <span class="work-experience-company">Веломагазин "PIT STOP"</span>
+            </h4>
+            <p class="work-experience-period">
+              Вересень 2014 - Травень 2019
+              <span class="work-experience-separator">|</span> Нікополь - Україна
+            </p>
+            <ul class="work-experience-duties-list">
+              <li class="work-experiencee-duties-item">Ремонт велосипедів, електровелосипедів</li>
+              <li class="work-experiencee-duties-item">
+                Консультування щодо вибору велосипедів і обслуговування за ними
+              </li>
+              <li class="work-experiencee-duties-item">
+                Продаж велосипедів та велосипедних запчастин і аксесуарів
+              </li>
+            </ul>
+          </div>
+        </div>
+        <!-- My education -->
+        <div>
+          <h3 class="education-title">Навчання</h3>
+          <p class="education-place">Go IT platform</p>
+          <p class="education-profession">Front-End Developer</p>
+          <p class="educatoin-period">
+            Вересень 2023 - Травень 2024
+            <span class="education-separator">|</span> Україна
+          </p>
+          <p class="education-place">
+            Нікопольський технікум Національної Металургійної Академії України
+          </p>
+          <p class="education-profession">
+            Монтаж і експлуатація електроустаткування підприємств і цивільних споруд
+          </p>
+          <p class="educatoin-period">
+            Вересень 2008 - Червень 2011
+            <span class="education-separator">|</span> Ukraine
+          </p>
+        </div>
+      </div>
+      <!-- Sidebar -->
+      <aside class="sidebar">
+        <img src="img/1.jpg" alt="My photo" width="370px" />
+        <div class="sidebar-content">
+          <!-- My contacts -->
+          <div class="contacs-conteiner">
+            <h3 class="contacts-title">Контакти</h3>
+            <p class="contacts-item">
+              <span class="contacts-type">C:</span>
+              <a class="contacts-link" href="tel:+380955726238"
+                >+38 095 572 62 38</a
+              >
+            </p>
+            <p class="contacts-item">
+              <span class="contacts-type">C:</span>
+              <a class="contacts-link" href="tel:+380955726238"
+                >+38 098 525 60 05</a
+              >
+            </p>
+            <p class="contacts-item">
+              <span class="contacts-type">E:</span>
+              <a class="contacts-link" href="mailto:fominrost@gmail.com"
+                >fominrost@gmail.com</a
+              >
+            </p>
+          </div>
+          <!-- My tech skills -->
+          <div class="skills-container">
+            <h3 class="skills-title">Tech Skills</h3>
+            <ul class="skills-list">
+              <li class="skills-list-item">HTML5</li>
+              <li class="skills-list-item">CSS3</li>
+              <li class="skills-list-item">JavaScript</li>
+              <li class="skills-list-item">GIT</li>
+              <li class="skills-list-item">Parcel</li>
+            </ul>
+          </div>
+          <!-- My soft skills -->
+          <div class="skills-container">
+            <h3 class="skills-title">Soft Skills</h3>
+            <ul class="skills-list">
+              <li class="skills-list-item">Відповідальність</li>
+              <li class="skills-list-item">Комунікабельність</li>
+              <li class="skills-list-item">Вміння працювати в команді</li>
+              <li class="skills-list-item">Організованість</li>
+            </ul>
+          </div>
+        </div>
+      </aside>
+    </div>
+  </body>
+</html>
